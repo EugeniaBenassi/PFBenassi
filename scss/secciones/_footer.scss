@@ -1,0 +1,21 @@
+.nav-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        a {
+            display: flex;
+            text-decoration: none;
+            color: black;
+            margin-right: 20px;
+        }
+    }
+}
+
+.icons i {
+    font-size: 20px;
+}

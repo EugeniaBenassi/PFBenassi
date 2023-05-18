@@ -1,0 +1,24 @@
+h1 {
+    color: black;
+    text-align: left;
+    padding: 35px;
+    background-color: $colorfondo;
+    font-family: $titulosh1;
+}
+
+.container {
+    padding: 15px;
+}
+
+
+body main {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: $colorfondo;
+}
+
+/* ----pagina inicio---- */
+/* animación titulo */
+.animate__flash {
+    --animate-duration: 3s;
+}
