@@ -1,11 +1,12 @@
 .header {
+    margin: 20px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     flex-wrap: wrap;
 
     img {
-        width: 120px;
+        width: 50px;
     }
 }
 
@@ -15,7 +16,7 @@
         list-style: none;
         width: 800px;
         justify-content: space-evenly;
-        margin-right: 15px;
+       
 
         a {
             text-decoration: none;
