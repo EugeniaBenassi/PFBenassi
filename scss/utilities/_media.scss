@@ -53,7 +53,7 @@
     .main .grid-container {
         grid-template-columns: repeat (1, 1fr);
         grid-template-rows: repeat (6, 1fr);
-        width: 250px;
+        width: 200px;
         
         grid-template-areas:
             "imagen1"
@@ -63,15 +63,20 @@
             "imagen5"
             "imagen6"
     }
-}
-
-@media (max-width: 340px) { 
     .header .nav-header ul {
         flex-wrap: nowrap;
-        width: 156px;
+        width: 200px;
         font-size: small;
         
         
 
     }
+}
+
+@media (max-width: 298px){
+.header .nav-header ul {
+    flex-wrap: nowrap;
+    width: 156px;
+    font-size: small;
+}
 }
